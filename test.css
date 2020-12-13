@@ -1,0 +1,114 @@
+
+@font-face {
+    font-family: yekan ;
+    src: url('fon/Yekan.ttf') format('truetype');
+}
+a {
+    text-decoration:none;
+}
+body {
+    margin:0;
+}
+header {
+    padding: 10px;
+    width:1200px;
+    height: 100px;
+    margin: auto;
+}
+
+.top_left{
+    float: left;
+    width: 300px;
+    height: 100%;
+}
+
+.top_right{
+    float: right;
+    width: 700px;
+    height: 100px;
+
+}
+
+.lock_icon{
+    background: url('sicons/sign-in.png');
+    display: inline-block;
+    height: 20px;
+    width:20px;
+    float: right;
+}
+
+.login_text {
+    float: right;
+    margin-right:5px;
+    font-family: yekan;
+}
+
+
+ a {
+    color: rgb(104, 104, 104);
+}
+
+ a:hover{
+     color: rgb(105, 235, 66);
+}
+
+
+.signup_icon {
+    background: url('/sicons/sign-up.png');
+    float: right;
+    margin-right: 30px;
+    display: block;
+    height: 20px;
+    width: 20px;
+}
+.top_right_top_right{
+
+}
+.reg_text {
+    float: right;
+    margin-right:10px;
+    direction: rtl;
+}
+.top_right_top{
+    height: 40px;
+}
+.basket_icon {
+    background: rgb(2, 233, 250) url('sicons/cart.png') no-repeat center;
+    width: 40px;
+    height: 40px;
+    float: right;
+ 
+}
+.top_right_buttom{
+    height: 74px;
+    margin-top: 0px;
+    
+}
+.basket_top {
+    width: 170px;
+    height: 40px;
+    float: right;
+
+}
+.basket_top_left {
+    float: left;
+    width: 130px;
+    height: 100%;
+    background-color: rgb(0,233,250);
+    text-decoration: rtl;
+}
+* {
+    text-decoration: rtl;
+}
+.basket_top_left span {
+    text-align: center;
+    direction: rtl;
+    margin: auto;
+}
+
+.p{
+    width: 200px;
+    height: 200px;
+    text-justify: distribute-all-lines;
+    line-height:30px;
+}
