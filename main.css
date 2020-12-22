@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    background : #f2f2f200  ;
+    background-color : #4bbe9eda  ;
 }
 
 @font-face {
     font-family : yekan;
-    src : url('fon/Yekan.ttf') format('truetype');
+    src : url('fon/Yekan.ttf') format('truetype');  
 }
 
 .yekan {
@@ -178,7 +178,7 @@ nav {
     height: 40px;
     width:100%;
     box-shadow : 0 5px 2px  #f2ebeb;
-
+   
 }
 
 #menu_top {
@@ -186,10 +186,12 @@ nav {
     height: 40px;
     margin: auto;
     padding: 0;
+
+
 }
 
 
-.menu_item_master {
+.item_menu1 {
     float:right;
     list-style-type:none;
     height:40px;
@@ -217,22 +219,25 @@ a {
     width: 7px;
     margin-right:8px;
     margin-top: 17px;
-}
-
+}   
 
 .relative {
     position:relative;
 }
 
-.none {
+.item_menu2 {
     -moz-list-style: none !important;
     float: right !important;
     height: 40px;
     
 }
 
-.sub_menu {
-    display: block;
+.absolute {
+    position:absolute;
+}
+
+.menu2 {
+    display: none;
     position: absolute;
     direction: rtl;
     text-align: right;
@@ -240,11 +245,39 @@ a {
     right: 0;
     padding: 0;
     height: 40px;
+    width: 1200px;
+    background-color: #f7f5ef;
+    border-top: none;
+    box-shadow: 0px 6px 2px #ffd415;
 }
 
-.none > a {
+.item_menu2 > a {
     padding : 10px 25px; 
     padding-top:8px;
     text-decoration: none;
     color:black;
+}
+.menut {
+    width: 1200px;
+    height: 300px;
+    right: 0;
+    background: #f1f1f1;
+    display: none;
+    position: absolute;
+}
+.sub_item_dec {
+    float: right;
+    width:299px;
+    height: 100%;
+    border-left: 1px solid #777;
+}
+
+
+.sub_item_dec > ul > li {
+
+    list-style-type: none;
+}
+.sub_item_dec > ul > li:first-child {
+
+    margin-right: 0;
 }
