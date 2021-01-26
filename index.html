@@ -5,8 +5,11 @@
     <title>DigiKala</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
+
     <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/query.js"></script>
+    
+    <!-- <script src="js/query.js"></script> -->
+    <link rel="stylesheet" href="css/flipTimer.css">
     <script>
     </script>
 
@@ -270,6 +273,8 @@
 
         <div class="main_content">
             <div class="slider_top relative">
+                <span class="nextslide absolute"></span>
+                <span class="prevslide absolute"></span>
                 <div class="slider_content">
                     <a href="#" class="slider_items">
                         <img alt="slider" src="images/slider1.jpg" class="slider_img">
@@ -287,12 +292,198 @@
                         <img alt="slider" src="images/slider5.jpg" class="slider_img">
                     </a>
                 </div>
-                <div class="slider_top_navigator">
+                <div class="slider_top_navigator yekan">
+
+                    <ul class="navigator_items relative">
+                        <li><a >بخش اول</a></li>
+                        <li><a >بخش دوم</a></li>
+                        <li><a >بخش سوم</a></li>
+                        <li><a>بخش چهارم</a></li>
+                        <li><a>بخش پنجم</a></li>
+                    </ul>
 
                 </div>
 
             </div>
-            <button class="btn">click here</button>
+            <div class="service">
+                <ul>
+                    <li class="features">
+                        <i class="ficon"></i>
+                        <span>ضمانت بازگشت وجه</span>
+                </li>
+                    <li class="features">
+                        <i class="ficon" style="background-position: -313px -474px;width: 37px;"></i>
+                        <span>تحویل اکسپرس</span>
+                </li>
+                    <li class="features">
+                        <i class="ficon"></i>
+                        <span>ضمانت بازگشت وجه</span>
+                </li>
+                    <li class="features">
+                        <i class="ficon"></i>
+                        <span>ضمانت بازگشت وجه</span>
+                </li>
+                    <li class="features">
+                        <i class="ficon"></i>
+                        <span>ضمانت بازگشت وجه</span>
+                </li>
+                </ul>
+            </div>
+            <div class="slider2">
+                <div class="right_slider">
+                    <ul class="right_slider_nav">
+                        <li>
+                            <a>ساعت مچی</a>
+                        </li>
+                        
+                        <li>
+                            <a>ساعت مچی</a>
+                        </li>
+                        
+                        <li>
+                            <a>ساعت مچی</a>                            
+                        </li>
+                        
+                        <li>
+                            <a>ساعت مچی</a>
+
+                        </li>
+                        
+                        <li>
+                            <a>ساعت مچی</a>
+                            
+                        </li>
+                        
+                        <li>
+                            <a>ساعت مچی</a>
+                            
+                        </li>
+                        
+                        <li>
+                            <a>ساعت مچی</a>
+                            
+                        </li>
+
+                        <li>
+                            <a>ساعت مچی</a>
+
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="left_slider">
+                    <div class="logo_slider2">
+                        <div class="item_slider2">
+                            <p>ساعت مچی اول</p>
+                            <img src="images/slider2_item1.jpg" alt="">
+                        </div>
+                        <div class="item_slider2">
+                            <p>ساعت مچی دوم</p>
+                            <img src="images/slider2_item1.jpg" alt="">
+                        </div>
+                        <div class="item_slider2">
+                            <p>ساعت مچی سوم</p>
+                            <img src="images/slider2_item1.jpg" alt="">
+                        </div>
+                        <div class="item_slider2">
+                            <p>ساعت مچی چهارم</p>
+                            <img src="images/slider2_item1.jpg" alt="">
+                        </div>
+                        <div class="item_slider2">
+                            <p>ساعت مچی ئنجم</p>
+                            <img src="images/slider2_item1.jpg" alt="">
+                        </div>
+                        <div class="item_slider2">
+                            <p>ساعت مچی اول</p>
+                            <img src="images/slider2_item1.jpg" alt="">
+                        </div>
+                        <div class="item_slider2">
+                            <p>ساعت مچی اول</p>
+                            <img src="images/slider2_item1.jpg" alt="">
+                        </div>
+                        <div class="item_slider2">
+                            <p>ساعت مچی اول</p>
+                            <img src="images/slider2_item1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="info_items">
+                        <div class="price">
+                            <div class="old_price relative yekan">
+                               <span> 18.5</span>
+                               <span> 12.5</span>
+                               <span> 14.5</span>
+                               <span> 141.5</span>
+                               <span> 118.5</span>
+                               <span> 181.5</span>
+                               <span> 183.5</span>
+                               <span> 184.5</span>
+
+                            </div>
+                            <div class="new_price relative yekan">
+                                <span>15 هزار 1تومان</span>
+                                <span>12 هزار1 تومان</span>
+                                <span>12 هزا2ر تومان</span>
+                                <span>12 هز2ار تومان</span>
+                                <span>12 ه1زار تومان</span>
+                                <span>12 1هزار تومان</span>
+                                <span>122 هزار تومان</span>
+                                <span>12 هزار تومان</span>
+                            </div>
+                        </div>
+                        <div class="short_info">
+                            <div>
+                            <p>توان حرارتی : 220 وات</p>
+                            <p>جنس بدنه: فیبر کربن</p>
+                            <p>سازنده : مریخ</p>
+                            </div>
+                            <div>
+                            <p>توان حرارتی : 4422 وات</p>
+                            <p>جنس بدنه: فیبر 12</p>
+                            <p>سازنده : مریخ</p>
+                            </div>
+                            <div>
+                            <p>توان حرارتی : 44 وات</p>
+                            <p>جنس بدنه: فیبر کربن</p>
+                            <p>سازنده : مریخ</p>
+                            </div>
+                            <div>
+                            <p>توان حرارتی : 11 وات</p>
+                            <p>جنس بدنه: فیبر کربن</p>
+                            <p>سازنده : مریخ</p>
+                            </div>
+                            <div>
+                            <p>توان حرارتی : 33 وات</p>
+                            <p>جنس بدنه: فیبر کربن</p>
+                            <p>سازنده : مریخ</p>
+                            </div>
+                            <div>
+                            <p>توان حرارتی : 221 وات</p>
+                            <p>جنس بدنه: فیبر کربن</p>
+                            <p>سازنده : مریخ</p>
+                            </div>
+                            <div>
+                            <p>توان حرارتی : 11 وات</p>
+                            <p>جنس بدنه: فیبر کربن</p>
+                            <p>سازنده : مریخ</p>
+                            </div>
+                            <div>
+                            <p>توان حرارتی : 20 وات</p>
+                            <p>جنس بدنه: فیبر کربن</p>
+                            <p>سازنده : مریخ</p>
+                            </div>
+                        </div>
+
+                        
+                            <div class="flipTimer">
+                                <div class="hours"></div>
+                                <div class="minutes"></div>
+                                <div class="seconds"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <button class="btn">click here</button> -->
 
         </div>
 
@@ -301,8 +492,11 @@
 
 
 
+    <script src="js/jquery.flipTimer.js"></script>
 
     <script src="js/query.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
 </div></body>
 
 </html>
